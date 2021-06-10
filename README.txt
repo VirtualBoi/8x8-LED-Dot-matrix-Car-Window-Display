@@ -1,7 +1,7 @@
 COMMANDS: (replace Xs with command values)
 	…bXX   —>  changes the matrix’s brightness ranging from 0 - 15
 	…sXXX  —>  changes the text scroll speed ranging from 0 - 5
-	…f.    —>  toggles led pulsing for added effect
+	…p     —>  toggles led pulsing for added effect
 
 
 SETTINGS:
