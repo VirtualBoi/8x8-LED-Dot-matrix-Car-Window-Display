@@ -1,5 +1,5 @@
 ===============================================================================================================================
-INTRO
+INTRO /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ===============================================================================================================================
 This file contains all the important information needed to set up my 8x8 LED Matrix Car Display. 
 
@@ -9,7 +9,7 @@ If there is someone out there who actually is using anything from the project an
 
 
 ===============================================================================================================================
-OVERVIEW
+OVERVIEW //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ===============================================================================================================================
 This project uses components (listed on components list) to display scrolling text on an 8x8 led matrix. This project uses an Arduino as the brains connected to a Bluetooth module. 
 
@@ -19,7 +19,7 @@ Although this project uses the Bluetooth module and 3D printed housings, the onl
 
 
 ===============================================================================================================================
-PARTS LIST
+PARTS LIST ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ===============================================================================================================================
 The following parts list contains all the parts I personally used in this project, if you have similar parts that are compatible, they should be interchangeable (like the BT module). The parts I picked are quite inexpensive and readily available. The only parts I wont be mentioning are the inferred parts such as wiring, printer filament… ect
 
@@ -40,7 +40,7 @@ The rest of the parts are more generic. The following list includes most of the 
 
 
 ===============================================================================================================================
-SOFTWARE
+SOFTWARE //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ===============================================================================================================================
 COMMANDS: (replace Xs with command values)
 	…bXX   —>  changes the matrix’s brightness ranging from 0 - 15
@@ -56,7 +56,7 @@ IMPORTANT^^^
 
 
 ===============================================================================================================================
-SETUP 	
+SETUP /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ===============================================================================================================================
 The setup is pretty self-explanatory but I can outline it here real quick. NOTE: detailed photos of the setup can be found in the “photos” folder.
 
@@ -66,5 +66,5 @@ After applying USB power, test it all work. You’re good to go!
 
 
 ===============================================================================================================================
-ANY QUESTIONS, EMAIL: gilbertethan@gmail.com
+ANY QUESTIONS, EMAIL: gilbertethan@gmail.com //////////////////////////////////////////////////////////////////////////////////
 ===============================================================================================================================
