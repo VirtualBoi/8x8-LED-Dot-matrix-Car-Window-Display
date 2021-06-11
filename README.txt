@@ -23,11 +23,11 @@ PARTS LIST
 ===============================================================================================================================
 The following parts list contains all the parts I personally used in this project, if you have similar parts that are compatible, they should be interchangeable (like the BT module). The parts I picked are quite inexpensive and readily available. The only parts I wont be mentioning are the inferred parts such as wiring, printer filament… ect
 
-	ESP8266 Microcontroller – The brains of the project. Can be substituted with any Arduino compatible microcontroller (4$ CAD)
+-> ESP8266 Microcontroller – The brains of the project. Can be substituted with any Arduino compatible microcontroller (4$ CAD)
 	
-	8x8 LED Matrix Display – I believe all versions of these displays are similar. I used one with a connected driver chip connected to the underside. Comes in different 	         colors (red, blue, green…ect) mine was specifically named “MAX7219 dot matrix module” (2$ CAD)
+-> 8x8 LED Matrix Display – I believe all versions of these displays are similar. I used one with a connected driver chip connected to the underside. Comes in different 	         colors (red, blue, green…ect) mine was specifically named “MAX7219 dot matrix module” (2$ CAD)
 
-	HC-06 Bluetooth Module – I think other versions of this module would work just the same but this module served me well and was quite cheap. (4$ CAD)
+-> HC-06 Bluetooth Module – I think other versions of this module would work just the same but this module served me well and was quite cheap. (4$ CAD)
 
 The rest of the parts are more generic. The following list includes most of the other required parts:
 
