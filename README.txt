@@ -17,9 +17,9 @@
                           \|_______|\|__|\_________\|__|     \|_______|\|__|\|__|\___/ /                    
                                         \|_________|                            \|___|/                     
 					
-===============================================================================================================================
+
 INTRO /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-===============================================================================================================================
+
 This file contains all the important information needed to set up my 8x8 LED Matrix Car Display. 
 
 First off, this display was intended to be mounted and displayed through the inside of a car’s window. Depending on where you live, this may be a reason for a cop to give you a ticket, use at your own risk!! Although this can be used on a car, it surely doesn’t need to be. 
@@ -27,9 +27,9 @@ First off, this display was intended to be mounted and displayed through the ins
 If there is someone out there who actually is using anything from the project and has questions for me, I'll include my email at the bottom of this README. (also feel free to email me if this was helpful to you as it would mean a lot to me to see someone who liked my project) 
 
 
-===============================================================================================================================
+
 OVERVIEW //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-===============================================================================================================================
+
 This project uses components (listed on components list) to display scrolling text on an 8x8 led matrix. This project uses an Arduino as the brains connected to a Bluetooth module. 
 
 A smartphone can be connected to the Bluetooth module, this will allow you to actively change the scrolling text as well as the settings of the display. 
@@ -37,9 +37,9 @@ A smartphone can be connected to the Bluetooth module, this will allow you to ac
 Although this project uses the Bluetooth module and 3D printed housings, the only truly required parts are the 8x8 display and an Arduino compatible microcontroller of your choice – in this project, I used a generic ESP8266 board. This project will include all the libraries I used in the code, but I will not be outlining the setup of the ESP8266 board on the Arduino IDE.
 
 
-===============================================================================================================================
+
 PARTS LIST ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-===============================================================================================================================
+
 The following parts list contains all the parts I personally used in this project, if you have similar parts that are compatible, they should be interchangeable (like the BT module). The parts I picked are quite inexpensive and readily available. The only parts I wont be mentioning are the inferred parts such as wiring, printer filament… ect
 
 -> ESP8266 Microcontroller – The brains of the project. Can be substituted with any Arduino compatible microcontroller (4$ CAD)
@@ -58,9 +58,9 @@ The rest of the parts are more generic. The following list includes most of the 
 	Suction cups (can be found at dollar stores) 
 
 
-===============================================================================================================================
+
 SOFTWARE //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-===============================================================================================================================
+
 COMMANDS: (replace Xs with command values)
 	…bXX   —>  changes the matrix’s brightness ranging from 0 - 15
 	…sXXX  —>  changes the text scroll speed ranging from 0 - 5
@@ -74,9 +74,9 @@ NOTE: this is also where you can change the pin connections from the components 
 IMPORTANT^^^
 
 
-===============================================================================================================================
+
 SETUP /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-===============================================================================================================================
+
 The setup is pretty self-explanatory but I can outline it here real quick. NOTE: detailed photos of the setup can be found in the “photos” folder.
 
 Once the code is adjusted and uploaded to the Arduino, wire the headers and wires as shown in the photos folder (or at least similarly depending on what board you use). If applicable, print the ESP8266 housing and leave the wire (how ever ling you need) from the circuit to the display hanging out of the box. Insert the display into the casing until you snap it in place. Connect the wire to the display then glue the suction cup holder to the back of the casing and slot in the suction cups. 
@@ -84,6 +84,6 @@ Once the code is adjusted and uploaded to the Arduino, wire the headers and wire
 After applying USB power, test it all work. You’re good to go!
 
 
-===============================================================================================================================
+
 ANY QUESTIONS, EMAIL: gilbertethan.projects@gmail.com /////////////////////////////////////////////////////////////////////////
-===============================================================================================================================
+
